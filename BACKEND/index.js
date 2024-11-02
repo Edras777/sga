@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const express = require("express");
 const cors = require("cors");
-// const path = require('path');
+const path = require("path");
 
 const app = express();
 
@@ -18,7 +18,7 @@ dbConnection();
 
 // Rutas
 
-// app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "../FRONTEND/build")));
 
 // app.get('/', function(req, res){
 //     res.redirect('/index.html');
@@ -39,6 +39,11 @@ app.use("/api/libros", require("./routes/libros"));
 app.use("/api/prestamo_libros", require("./routes/prestamo_libros"));
 app.use("/api/laboratorios", require("./routes/laboratorios"));
 app.use("/api/reportes", require("./routes/reportes"));
+
+// Configura una ruta comodín para que todas las rutas usen el archivo `index.html`
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../FRONTEND/build", "index.html"));
+});
 
 app.listen(process.env.PORT, () => {
   console.log("Server is running on port " + process.env.PORT);

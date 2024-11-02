@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87b99245.css",
+    "main.js": "/static/js/main.2ec4ca00.js",
+    "static/media/bgAuth.webp": "/static/media/bgAuth.d77aa4fc6bd7c3eb4ed4.webp",
+    "static/media/raleway-all-400-normal.woff": "/static/media/raleway-all-400-normal.98e7ff86f2b9a46e19cc.woff",
+    "static/media/poppins-all-400-normal.woff": "/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
+    "static/media/poppins-devanagari-400-normal.woff2": "/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
+    "static/media/lineas-fondo-auth.png": "/static/media/lineas-fondo-auth.526f930beb218466f3fb.png",
+    "static/media/raleway-latin-400-normal.woff2": "/static/media/raleway-latin-400-normal.0bdecdd83e78d540c297.woff2",
+    "static/media/raleway-latin-ext-400-normal.woff2": "/static/media/raleway-latin-ext-400-normal.e2c3693083a044bed680.woff2",
+    "static/media/raleway-cyrillic-ext-400-normal.woff2": "/static/media/raleway-cyrillic-ext-400-normal.afca160d632851197a24.woff2",
+    "static/media/raleway-cyrillic-400-normal.woff2": "/static/media/raleway-cyrillic-400-normal.f7d0cc4bf9cf8da4f023.woff2",
+    "static/media/poppins-latin-400-normal.woff2": "/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/raleway-vietnamese-400-normal.woff2": "/static/media/raleway-vietnamese-400-normal.bb6f51e1b67ec8802d57.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
+    "index.html": "/index.html",
+    "main.87b99245.css.map": "/static/css/main.87b99245.css.map",
+    "main.2ec4ca00.js.map": "/static/js/main.2ec4ca00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87b99245.css",
+    "static/js/main.2ec4ca00.js"
+  ]
+}
